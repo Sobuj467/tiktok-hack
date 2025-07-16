@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luck Spin - App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Luck Spin App</h1>
+    <nav>
+      <a href="login.html">লগইন</a>
+      <a href="register.html">রেজিস্টার</a>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>আপনার ভাগ্য পরীক্ষা করুন!</h2>
+      <p>নীচের বাটন চাপুন এবং দেখুন আপনি কি জিতলেন!</p>
+      <button id="spinButton">স্পিন করুন</button>
+      <div id="result"></div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Luck Spin App. সর্বস্বত্ব সংরক্ষিত।
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>লগইন - Luck Spin App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>লগইন করুন</h1>
+  </header>
+  <main>
+    <form id="loginForm">
+      <label>ইমেইল:
+        <input type="email" required />
+      </label>
+      <label>পাসওয়ার্ড:
+        <input type="password" required />
+      </label>
+      <button type="submit">লগইন</button>
+    </form>
+    <p>একাউন্ট নেই? <a href="register.html">রেজিস্টার করুন</a></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>রেজিস্টার - Luck Spin App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>রেজিস্টার করুন</h1>
+  </header>
+  <main>
+    <form id="registerForm">
+      <label>নাম:
+        <input type="text" required />
+      </label>
+      <label>ইমেইল:
+        <input type="email" required />
+      </label>
+      <label>পাসওয়ার্ড:
+        <input type="password" required />
+      </label>
+      <button type="submit">রেজিস্টার</button>
+    </form>
+    <p>একাউন্ট আছে? <a href="login.html">লগইন করুন</a></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
